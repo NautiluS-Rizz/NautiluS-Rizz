@@ -1,0 +1,57 @@
+html{
+    font-size: 22px;
+    font-family: sans-serif;
+}
+body{
+    background-color: #333;
+    color: whitesmoke;
+}
+.righttext{
+    text-align: right;
+}
+.star{
+    color: orange;
+}
+@keyframes Slidefadein{
+    from{
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0px)
+    }
+}
+.Slidefadein{
+    animation: Slidefadein 1.3s ease-in-out;
+}
+
+.boldcenter{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 99px;  
+}
+
+.div_quote{
+    text-align: left;
+    font-style: italic;
+   
+  
+}
+.div_user{
+    text-align:left;
+    font-weight: bold;
+    font-size: 25px;
+    
+}
+.div_star{
+    color: orange;
+    text-align: left;
+    
+}
+
+.div1{
+    color: orange;
+    text-align: justify;
+    transform: translateY(-100px);
+}
